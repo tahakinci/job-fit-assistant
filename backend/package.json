@@ -1,0 +1,28 @@
+{
+  "name": "job-fit-asistant-backend",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "scripts": {
+    "start": "cross-env NODE_ENV=production node index.ts",
+    "dev": "cross-env NODE_ENV=development node --watch index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint ."
+  },
+  "author": "taha akinci",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cross-env": "^10.1.0",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.2",
+    "@stylistic/eslint-plugin": "^5.7.0",
+    "@types/eslint__js": "^8.42.3",
+    "@types/express": "^5.0.6",
+    "eslint": "^9.39.2",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.53.0"
+  }
+}
